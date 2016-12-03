@@ -6,16 +6,95 @@ email : ranihaileydesai@gmail.com
 -->
 
 <!-- page for about us -->
-<html>
+html>
 <head>
 	<title> About PC </title>
+	<style>
+	body{
+		padding-left: 20px;
+  padding-right: 20px;
+	}
+	.about {
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 75%;
+  border: 2px solid gray;
+  border-radius: 5px;
+  border-top: 6px solid red;
+}
+.space {
+	padding-left: 10px;
+  padding-right: 10px;
+}
+.nav {
+  max-width: 25%;
+  min-width: 120px;
+  flex: 1;
+  border: 2px solid gray;
+  border-radius: 5px;
+  border-top: 6px solid blue;
+}
+.au {
+  display:flex;
+}
+	<style>
+
 </head>
 <body>
     {% include "header.html" %}
-    <br><br><br><br><br><br><center>
-    <p>Here the information about PC would be shown</p></center>
+    <br><br><br><br><br><br>
+<div class = "au">
+     
+
+    <div class="about">
+    <h1>About Peace Corps</h1>
+   	<iframe width="560" height="315" src="https://www.youtube.com/embed/di3PMGtC0O4" frameborder="0" allowfullscreen></iframe>
+   	<br><br><br>
+   	<p>Peace Corps allows US volunteers to go abroad to help communithy solve issues like Malaria, Women Empowerment, HIV/AIDS, and much more.</p>
+   	<p>Volunteers can also learn more about the culture and gain a leadership experience<p/>
+   	<br>
+   	<h3>One Mission, Three Goals</h3>
+   	<ul>
+   		<li>Helping countries in need of assistance</li>
+   		<li>Promote the idea of the poeple Americans have served</li>
+   		<li>Americans understand the different cultures around the world</li>
+   	</ul>
+   	<br><br>
+	</div>
+	<div class="space"></div>
+	<div class = "nav">
+	<center>
+  <h2>Contact</h2>
+  <p> For more information...</p>
+  <p>Visit the Peace Corps site <a href="https://www.peacecorps.gov/">here</a></p>
+  <h3>Follow our Social Media Accounts</h3>
+  <a href="https://www.facebook.com/peacecorps">
+  	<img src="https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png" alt="fb" style="width:25px;height:25px;border:0;">
+  </a>
+  <a href="https://twitter.com/peacecorps">
+  	<img src="http://goinkscape.com/wp-content/uploads/2015/07/twitter-logo-final.png" alt="tw" style="width:25px;height:25px;border:0;">
+  </a>
+  <a href="https://www.youtube.com/peacecorps">
+  	<img src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" alt="yt" style="width:25px;height:25px;border:0;">
+  </a>
+  <a href="https://www.instagram.com/peacecorps/">
+  	<img src="http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" alt="insta" style="width:25px;height:25px;border:0;">
+  </a>
+  <a href="https://www.linkedin.com/company/peace-corps/">
+  	<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="in" style="width:25px;height:25px;border:0;">
+  </a>
+  <a href="https://www.pinterest.com/peacecorps/">
+  	<img src="http://seeklogo.com/images/P/pinterest-logo-8561DDA2E1-seeklogo.com.png" alt="pin" style="width:25px;height:25px;border:0;">
+  </a>
+  <a href="http://peacecorps.tumblr.com/">
+  	<img src="https://assets.tumblr.com/images/logo_page/img_logo_bluebg_2x.png" alt="tmblr" style="width:25px;height:25px;border:0;">
+  </a>
+
+    </div>
+</center>
+	</div>
     
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <br><br>
     {% include "footer.html" %}
     
 </body>
